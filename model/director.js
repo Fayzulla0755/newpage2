@@ -4,15 +4,15 @@ const schema=mongoose.Schema
 const directors= new schema({
     name:{
         type: String,
-        required:true
+        // required:true
     },
     surname:{
         type:String,
-        required:true
+        // required:true
     },
     bio:{
         type:String,
-        required: true
+        // required: true
     }
 })
 

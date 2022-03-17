@@ -19,7 +19,7 @@ const mongodb=new schema({
         type:Number,
         required:true
     },
-    director:{},
+    director_id: schema.Types.ObjectId,
     imdb_score:{
         type:Number,
         default:0
